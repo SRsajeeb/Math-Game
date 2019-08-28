@@ -149,3 +149,10 @@ html {
     display: none;
 
 }
+
+.footer{
+    background-color: #eee;
+    font-size: 15px;
+    padding: 1px 0px;
+    text-align: center;
+}
