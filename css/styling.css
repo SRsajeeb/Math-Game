@@ -217,29 +217,72 @@ body{
 
 /* responsive */
 
-@media only screen and (max-width: 600px){
+@media(max-width: 600px){
     #container {
-        width: 30rem;
+        width: 28rem;
         margin: 0;
     }
 
     #score {
-        left: 28.125rem;
+        left: 25rem;
         top: 10px;
     }
 
     #timeremaining{
-        left: 21.25rem;   
+        left: 19rem;   
     }
 
     #gameOver{
-        width: 26.7rem;
+        width: 25rem;
     }
     #wrong {
-        left: 11.25rem;
+        left: 10rem;
     }
     #correct{
-        left: 11.25rem;
+        left: 10rem;
+    }
+}
+
+
+@media(max-width: 500px){
+    #container {
+        width: 24rem;
+        margin: 0;
+    }
+
+    #score {
+        left: 21rem;
+        top: 10px;
+    }
+
+    #timeremaining{
+        left: 17rem;
+        font-size: 1rem;
+        padding: 6px; 
+        width: auto;  
+    }
+
+    #gameOver{
+        width: 21rem;
+        font-size: 2rem;
+    }
+    #wrong {
+        left: 10rem;
+    }
+    #correct{
+        left: 10rem;
+    }
+
+    #question{
+        width: auto;
+    }
+
+    #instruction{
+        width: auto;
+    }
+
+    .box{
+        margin-right: 12px;
     }
 }
 
