@@ -199,7 +199,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     top: 100px;
-    left: 65px;
+    left: 55px;
     position: absolute;
     z-index: 2;
     display: none;
@@ -265,6 +265,7 @@ body{
     #gameOver{
         width: 21rem;
         font-size: 2rem;
+    
     }
     #wrong {
         left: 8.5rem;
