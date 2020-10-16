@@ -53,6 +53,7 @@ document.getElementById("box"+i).onclick = function(){
         }else{
             hide("correct");
             show("wrong");
+            
            setTimeout(function(){
                hide("wrong");
            },1000);

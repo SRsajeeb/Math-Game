@@ -289,3 +289,58 @@ body{
 
 
 
+/* for device under 400px width */
+
+@media(max-width: 438px){
+    #container {
+        width: 20rem;
+        margin: 0;
+    }
+
+    #score {
+        left: 17.5rem;
+        top: 10px;
+        font-size: 0.8rem;
+    }
+
+    #timeremaining{
+        left: 16rem;
+        font-size: 0.8rem;
+        padding: 6px; 
+        width: auto;  
+    }
+
+    #gameOver{
+        width: 16rem;
+        font-size: 1.5rem;
+    
+    }
+    #wrong {
+        left: 7rem;
+    }
+    #correct{
+        left: 7rem;
+    }
+
+    #question{
+        width: auto;
+        font-size: 80px;
+    }
+
+    #instruction{
+        width: auto;
+    }
+
+    #choices {
+        width: auto;
+    }
+
+    .box{
+        margin-right: 12px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
