@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,10 @@
     <link rel="stylesheet" href="css/styling.css">
     <title>Math Game</title>
 </head>
-<body>
+
+<body onload="myFunction()">
+    <div id="loading">
+    </div>
     <header>
         <h1>++Sum Game++</h1>
     </header>
@@ -23,7 +27,7 @@
             Try again!
         </div>
         <div id="question">
-            
+
         </div>
         <div id="instruction">
             Click on the correct answer!
@@ -39,16 +43,18 @@
             Time remaining: <span id="timeremainingvalue">60</span> sec
         </div>
         <div id="gameOver">
-            
+
         </div>
     </div>
-    
+
     <div class="footer">
-    <div class="container">
-        <p>&copy; Develop with Sajeeb.</p>
+        <div class="container">
+            <p>&copy; Develop with Sajeeb.</p>
+        </div>
     </div>
-</div>
+    <script src="js/index.js"></script>
 
     <script src="js/sum.js"></script>
 </body>
+
 </html>
