@@ -215,3 +215,33 @@ body{
 
 
 
+/* responsive */
+
+@media only screen and (max-width: 600px){
+    #container {
+        width: 30rem;
+        margin: 0;
+    }
+
+    #score {
+        left: 28.125rem;
+        top: 10px;
+    }
+
+    #timeremaining{
+        left: 21.25rem;   
+    }
+
+    #gameOver{
+        width: 26.7rem;
+    }
+    #wrong {
+        left: 11.25rem;
+    }
+    #correct{
+        left: 11.25rem;
+    }
+}
+
+
+
