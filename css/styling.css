@@ -52,8 +52,8 @@ body{
 
 /* Styling the game page */
 #container{
-    height: 420px;
-    width: 550px;
+    height: 26.25rem;
+    width: 37.37rem;
     background-color: #5056C9;
     margin: 50px auto;
     border-radius: 10px;
@@ -199,7 +199,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     top: 100px;
-    left: 45px;
+    left: 65px;
     position: absolute;
     z-index: 2;
     display: none;
